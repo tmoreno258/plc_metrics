@@ -1,0 +1,50 @@
+## PLC Modbus TCP/IP
+- id: Process Count
+  plc_brand: Schneider
+  ip_addr: 127.0.0.1
+  port: 502
+  data:
+    - data_type: coil
+      bit_addr: 0
+      bit_nb: 10
+      addrs:
+        0: START
+        1: STOP
+        2: AUTOMATIC_MODE
+        3: MANUAL_MODE
+        4: RESET
+        5: EMERGENCY STOP
+        6: TRANSPORT SENSOR
+        7: BIG BOXES
+        8: SMALL BOXES
+        9: BOX MANUAL PUSHER
+    - data_type: holding_reg
+      bit_addr: 10
+      bit_nb: 1
+      addrs:
+        10: BOX SIZE SENSORS
+    - data_type: coil
+      bit_addr: 20
+      bit_nb: 14
+      addrs:
+        20: START LED
+        21: RESET LED
+        22: STOP LED
+        23: SYSTEM RUNNING LED
+        24: SMALL BOXES COUNTER LED
+        25: LARGE BOXES COUNTER LED
+        26: MAIN CONVEYOR BELT RUN
+        27: LARGE BOXES CONVEYOR BELT
+        28: SMALL BOXES
+        29: BOX MANUAL PUSHER
+        30: LARGE BOXES CONVEYOR BELT
+        31: SMALL BOXES CONVEYOR BELT
+        32: BOX AUTOMATIC PUSHER RUNNING
+        33: BOX MANUAL PUSHER LED
+    - data_type: holding_reg
+      bit_addr: 40
+      bit_nb: 3
+      addrs:
+        40: TOTAL BOXES COUNT
+        41: LARGE BOXES COUNT
+        42: SMALL BOXES COUNT
