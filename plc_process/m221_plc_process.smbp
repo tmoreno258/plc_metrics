@@ -2,8 +2,8 @@
 <ProjectDescriptor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectVersion>2.7.0.0</ProjectVersion>
   <ManagementLevel>FunctLevelMan17_0</ManagementLevel>
-  <Name>Tarea1C3_TomasMoreno</Name>
-  <FullName>D:\OneDrive\OneDrive - Universidad Técnica Federico Santa María\Ingeniería de Ejecución en Control e Instrumentación\Semestre V\Control Programado\Tarea 1 Certamen 3\Tarea1C3_TomasMoreno.smbp</FullName>
+  <Name>m221_plc_process</Name>
+  <FullName>C:\Users\tmoreno\Documents\projects\plc_metrics\plc_process\m221_plc_process.smbp</FullName>
   <CurrentCultureName>es-ES</CurrentCultureName>
   <SoftwareConfiguration>
     <Pous>
@@ -16,7 +16,7 @@
               <LadderEntity>
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M0</Descriptor>
-                <Comment>PARTIR</Comment>
+                <Comment>START</Comment>
                 <Symbol />
                 <Row>0</Row>
                 <Column>0</Column>
@@ -25,7 +25,7 @@
               <LadderEntity>
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M1</Descriptor>
-                <Comment>PARAR</Comment>
+                <Comment>STOP</Comment>
                 <Symbol />
                 <Row>0</Row>
                 <Column>1</Column>
@@ -34,7 +34,7 @@
               <LadderEntity>
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M50</Descriptor>
-                <Comment>ARRANQUE SISTEMA</Comment>
+                <Comment>RUN SYSTEM</Comment>
                 <Symbol />
                 <Row>1</Row>
                 <Column>0</Column>
@@ -43,7 +43,7 @@
               <LadderEntity>
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M5</Descriptor>
-                <Comment>PARADA DE EMERGENCIA</Comment>
+                <Comment>EMERGENCY STOP</Comment>
                 <Symbol />
                 <Row>0</Row>
                 <Column>2</Column>
@@ -52,7 +52,7 @@
               <LadderEntity>
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M50</Descriptor>
-                <Comment>ARRANQUE SISTEMA</Comment>
+                <Comment>RUN SYSTEM</Comment>
                 <Symbol />
                 <Row>0</Row>
                 <Column>10</Column>
@@ -133,7 +133,7 @@
               <LadderEntity>
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M50</Descriptor>
-                <Comment>ARRANQUE SISTEMA</Comment>
+                <Comment>RUN SYSTEM</Comment>
                 <Symbol />
                 <Row>0</Row>
                 <Column>1</Column>
@@ -142,7 +142,7 @@
               <LadderEntity>
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M20</Descriptor>
-                <Comment>LED PARTIR</Comment>
+                <Comment>START LED</Comment>
                 <Symbol />
                 <Row>0</Row>
                 <Column>10</Column>
@@ -193,7 +193,7 @@
               <LadderEntity>
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M23</Descriptor>
-                <Comment>LED FUNCIONAMIENTO SISTEMA</Comment>
+                <Comment>RUN SYSTEM LED</Comment>
                 <Symbol />
                 <Row>1</Row>
                 <Column>10</Column>
@@ -253,7 +253,7 @@
               <LadderEntity>
                 <ElementType>NegatedContact</ElementType>
                 <Descriptor>%M50</Descriptor>
-                <Comment>ARRANQUE SISTEMA</Comment>
+                <Comment>RUN SYSTEM</Comment>
                 <Symbol />
                 <Row>2</Row>
                 <Column>1</Column>
@@ -268,7 +268,7 @@
               <LadderEntity>
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M22</Descriptor>
-                <Comment>LED PARAR</Comment>
+                <Comment>STOP LED</Comment>
                 <Symbol />
                 <Row>2</Row>
                 <Column>10</Column>
@@ -343,7 +343,7 @@
               <LadderEntity>
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M50</Descriptor>
-                <Comment>ARRANQUE SISTEMA</Comment>
+                <Comment>RUN SYSTEM</Comment>
                 <Symbol />
                 <Row>0</Row>
                 <Column>4</Column>
@@ -450,7 +450,7 @@
               <LadderEntity>
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M26</Descriptor>
-                <Comment>CORREA PRINCIPAL</Comment>
+                <Comment>MAIN CONVEYOR BELT</Comment>
                 <Symbol />
                 <Row>0</Row>
                 <Column>10</Column>
@@ -471,7 +471,7 @@
               <LadderEntity>
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M31</Descriptor>
-                <Comment>CORREA CAJAS PEQUEÑAS</Comment>
+                <Comment>SMALL BOXES CONVEYOR BELT</Comment>
                 <Symbol />
                 <Row>1</Row>
                 <Column>10</Column>
@@ -486,7 +486,7 @@
               <LadderEntity>
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M30</Descriptor>
-                <Comment>CORREA CAJAS GRANDES</Comment>
+                <Comment>LARGE BOXES CONVEYOR BELT</Comment>
                 <Symbol />
                 <Row>2</Row>
                 <Column>10</Column>
@@ -495,7 +495,7 @@
               <LadderEntity>
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M27</Descriptor>
-                <Comment>TRANSPORTE ADELANTE</Comment>
+                <Comment>FORWARD CHAIN TRANSFER</Comment>
                 <Symbol />
                 <Row>3</Row>
                 <Column>10</Column>
@@ -504,7 +504,7 @@
               <LadderEntity>
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M50</Descriptor>
-                <Comment>ARRANQUE SISTEMA</Comment>
+                <Comment>RUN SYSTEM</Comment>
                 <Symbol />
                 <Row>0</Row>
                 <Column>0</Column>
@@ -513,7 +513,7 @@
               <LadderEntity>
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M2</Descriptor>
-                <Comment>AUTOMATICO</Comment>
+                <Comment>AUTOMATIC</Comment>
                 <Symbol />
                 <Row>0</Row>
                 <Column>1</Column>
@@ -629,7 +629,7 @@
               <LadderEntity>
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M50</Descriptor>
-                <Comment>ARRANQUE SISTEMA</Comment>
+                <Comment>RUN SYSTEM</Comment>
                 <Symbol />
                 <Row>0</Row>
                 <Column>0</Column>
@@ -647,7 +647,7 @@
               <LadderEntity>
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M2</Descriptor>
-                <Comment>AUTOMATICO</Comment>
+                <Comment>AUTOMATIC</Comment>
                 <Symbol />
                 <Row>1</Row>
                 <Column>1</Column>
@@ -656,7 +656,7 @@
               <LadderEntity>
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M9</Descriptor>
-                <Comment>IMPULSADOR CAJAS (MANUAL)</Comment>
+                <Comment>MANUAL BOXES PUSHER</Comment>
                 <Symbol />
                 <Row>0</Row>
                 <Column>2</Column>
@@ -665,7 +665,7 @@
               <LadderEntity>
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M32</Descriptor>
-                <Comment>EMISOR DE CAJAS</Comment>
+                <Comment>BOXES PUSHER</Comment>
                 <Symbol />
                 <Row>0</Row>
                 <Column>10</Column>
@@ -762,7 +762,7 @@
               <LadderEntity>
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M50</Descriptor>
-                <Comment>ARRANQUE SISTEMA</Comment>
+                <Comment>RUN SYSTEM</Comment>
                 <Symbol />
                 <Row>0</Row>
                 <Column>0</Column>
@@ -780,7 +780,7 @@
               <LadderEntity>
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M9</Descriptor>
-                <Comment>IMPULSADOR CAJAS (MANUAL)</Comment>
+                <Comment>MANUAL BOXES PUSHER</Comment>
                 <Symbol />
                 <Row>0</Row>
                 <Column>2</Column>
@@ -789,7 +789,7 @@
               <LadderEntity>
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M33</Descriptor>
-                <Comment>LED IMPULSADOR MANUAL</Comment>
+                <Comment>MANUAL PUSHER LED</Comment>
                 <Symbol />
                 <Row>0</Row>
                 <Column>10</Column>
@@ -1039,7 +1039,7 @@
               <LadderEntity>
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M6</Descriptor>
-                <Comment>SENSOR TRANSPORTE</Comment>
+                <Comment>CHAIN TRANSFER SENSOR</Comment>
                 <Symbol />
                 <Row>0</Row>
                 <Column>2</Column>
@@ -1139,7 +1139,7 @@
               <LadderEntity>
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M28</Descriptor>
-                <Comment>TRANSPORTE CG</Comment>
+                <Comment>LARGE BOXES TRANSFER</Comment>
                 <Symbol />
                 <Row>0</Row>
                 <Column>10</Column>
@@ -1244,7 +1244,7 @@
               <LadderEntity>
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M6</Descriptor>
-                <Comment>SENSOR TRANSPORTE</Comment>
+                <Comment>CHAIN TRANSFER SENSOR</Comment>
                 <Symbol />
                 <Row>0</Row>
                 <Column>2</Column>
@@ -1358,7 +1358,7 @@
               <LadderEntity>
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M29</Descriptor>
-                <Comment>TRANSPORTE CP</Comment>
+                <Comment>SMALL BOXES TRANSFER</Comment>
                 <Symbol />
                 <Row>0</Row>
                 <Column>10</Column>
@@ -1500,7 +1500,7 @@
               <LadderEntity>
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M8</Descriptor>
-                <Comment>SENSOR CONTADOR CG</Comment>
+                <Comment>LARGE BOXES COUNTER SENSOR</Comment>
                 <Symbol />
                 <Row>3</Row>
                 <Column>0</Column>
@@ -1566,7 +1566,7 @@
               <LadderEntity>
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M25</Descriptor>
-                <Comment>LED CONTADOR CG</Comment>
+                <Comment>LARGE BOXES COUNTER LED</Comment>
                 <Symbol />
                 <Row>3</Row>
                 <Column>10</Column>
@@ -1667,7 +1667,7 @@
               <LadderEntity>
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M7</Descriptor>
-                <Comment>SENSOR CONTADOR CP</Comment>
+                <Comment>SMALL BOXES COUNTER SENSOR</Comment>
                 <Symbol />
                 <Row>3</Row>
                 <Column>0</Column>
@@ -1719,7 +1719,7 @@
               <LadderEntity>
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M24</Descriptor>
-                <Comment>LED CONTADOR CP</Comment>
+                <Comment>SMALL BOXES COUNTER LED</Comment>
                 <Symbol />
                 <Row>3</Row>
                 <Column>10</Column>
@@ -1869,7 +1869,7 @@
               <LadderEntity>
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M4</Descriptor>
-                <Comment>RESETEO</Comment>
+                <Comment>RESET</Comment>
                 <Symbol />
                 <Row>0</Row>
                 <Column>0</Column>
@@ -1878,7 +1878,7 @@
               <LadderEntity>
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M21</Descriptor>
-                <Comment>LED RESET</Comment>
+                <Comment>RESET LED</Comment>
                 <Symbol />
                 <Row>0</Row>
                 <Column>10</Column>
@@ -2021,17 +2021,17 @@
       <MemoryBit>
         <Address>%M0</Address>
         <Index>0</Index>
-        <Comment>PARTIR</Comment>
+        <Comment>START</Comment>
       </MemoryBit>
       <MemoryBit>
         <Address>%M1</Address>
         <Index>1</Index>
-        <Comment>PARAR</Comment>
+        <Comment>STOP</Comment>
       </MemoryBit>
       <MemoryBit>
         <Address>%M2</Address>
         <Index>2</Index>
-        <Comment>AUTOMATICO</Comment>
+        <Comment>AUTOMATIC</Comment>
       </MemoryBit>
       <MemoryBit>
         <Address>%M3</Address>
@@ -2041,107 +2041,107 @@
       <MemoryBit>
         <Address>%M4</Address>
         <Index>4</Index>
-        <Comment>RESETEO</Comment>
+        <Comment>RESET</Comment>
       </MemoryBit>
       <MemoryBit>
         <Address>%M5</Address>
         <Index>5</Index>
-        <Comment>PARADA DE EMERGENCIA</Comment>
+        <Comment>EMERGENCY STOP</Comment>
       </MemoryBit>
       <MemoryBit>
         <Address>%M6</Address>
         <Index>6</Index>
-        <Comment>SENSOR TRANSPORTE</Comment>
+        <Comment>CHAIN TRANSFER SENSOR</Comment>
       </MemoryBit>
       <MemoryBit>
         <Address>%M7</Address>
         <Index>7</Index>
-        <Comment>SENSOR CONTADOR CP</Comment>
+        <Comment>SMALL BOXES COUNTER SENSOR</Comment>
       </MemoryBit>
       <MemoryBit>
         <Address>%M8</Address>
         <Index>8</Index>
-        <Comment>SENSOR CONTADOR CG</Comment>
+        <Comment>LARGE BOXES COUNTER SENSOR</Comment>
       </MemoryBit>
       <MemoryBit>
         <Address>%M9</Address>
         <Index>9</Index>
-        <Comment>IMPULSADOR CAJAS (MANUAL)</Comment>
+        <Comment>MANUAL BOXES PUSHER</Comment>
       </MemoryBit>
       <MemoryBit>
         <Address>%M20</Address>
         <Index>20</Index>
-        <Comment>LED PARTIR</Comment>
+        <Comment>START LED</Comment>
       </MemoryBit>
       <MemoryBit>
         <Address>%M21</Address>
         <Index>21</Index>
-        <Comment>LED RESET</Comment>
+        <Comment>RESET LED</Comment>
       </MemoryBit>
       <MemoryBit>
         <Address>%M22</Address>
         <Index>22</Index>
-        <Comment>LED PARAR</Comment>
+        <Comment>STOP LED</Comment>
       </MemoryBit>
       <MemoryBit>
         <Address>%M23</Address>
         <Index>23</Index>
-        <Comment>LED FUNCIONAMIENTO SISTEMA</Comment>
+        <Comment>RUN SYSTEM LED</Comment>
       </MemoryBit>
       <MemoryBit>
         <Address>%M24</Address>
         <Index>24</Index>
-        <Comment>LED CONTADOR CP</Comment>
+        <Comment>SMALL BOXES COUNTER LED</Comment>
       </MemoryBit>
       <MemoryBit>
         <Address>%M25</Address>
         <Index>25</Index>
-        <Comment>LED CONTADOR CG</Comment>
+        <Comment>LARGE BOXES COUNTER LED</Comment>
       </MemoryBit>
       <MemoryBit>
         <Address>%M26</Address>
         <Index>26</Index>
-        <Comment>CORREA PRINCIPAL</Comment>
+        <Comment>MAIN CONVEYOR BELT</Comment>
       </MemoryBit>
       <MemoryBit>
         <Address>%M27</Address>
         <Index>27</Index>
-        <Comment>TRANSPORTE ADELANTE</Comment>
+        <Comment>FORWARD CHAIN TRANSFER</Comment>
       </MemoryBit>
       <MemoryBit>
         <Address>%M28</Address>
         <Index>28</Index>
-        <Comment>TRANSPORTE CG</Comment>
+        <Comment>LARGE BOXES TRANSFER</Comment>
       </MemoryBit>
       <MemoryBit>
         <Address>%M29</Address>
         <Index>29</Index>
-        <Comment>TRANSPORTE CP</Comment>
+        <Comment>SMALL BOXES TRANSFER</Comment>
       </MemoryBit>
       <MemoryBit>
         <Address>%M30</Address>
         <Index>30</Index>
-        <Comment>CORREA CAJAS GRANDES</Comment>
+        <Comment>LARGE BOXES CONVEYOR BELT</Comment>
       </MemoryBit>
       <MemoryBit>
         <Address>%M31</Address>
         <Index>31</Index>
-        <Comment>CORREA CAJAS PEQUEÑAS</Comment>
+        <Comment>SMALL BOXES CONVEYOR BELT</Comment>
       </MemoryBit>
       <MemoryBit>
         <Address>%M32</Address>
         <Index>32</Index>
-        <Comment>EMISOR DE CAJAS</Comment>
+        <Comment>BOXES PUSHER</Comment>
       </MemoryBit>
       <MemoryBit>
         <Address>%M33</Address>
         <Index>33</Index>
-        <Comment>LED IMPULSADOR MANUAL</Comment>
+        <Comment>MANUAL PUSHER LED</Comment>
       </MemoryBit>
       <MemoryBit>
         <Address>%M50</Address>
         <Index>50</Index>
-        <Comment>ARRANQUE SISTEMA</Comment>
+        <Comment>RUN SYSTEM</Comment>
       </MemoryBit>
       <MemoryBit>
         <Address>%M61</Address>
