@@ -1,8 +1,13 @@
 ## PLC Modbus TCP/IP
 - id: Process Count
-  plc_brand: Schneider
-  ip_addr: 127.0.0.1
-  port: 502
+  plc: 
+    brand: Schneider
+    model: M221
+    part_number: TM221CE24R
+    ip_addr: 127.0.0.1
+  protocol:
+    kind: modbus_tcp
+    port: 502
   data:
     - data_type: coil
       bit_addr: 0
